@@ -1,0 +1,12 @@
+{
+  "Navigation": {
+    "home": "Domov",
+    "purpose": "Účel",
+    "case_studies": "Případové studie",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "HeroSection": {
+    "motto": "Soukromé, škálovatelné, neměnné."
+  }
+}

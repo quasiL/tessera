@@ -1,0 +1,12 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "purpose": "Purpose",
+    "case_studies": "Case Studies",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "HeroSection": {
+    "motto": "Private, Scalable, Immutable."
+  }
+}
