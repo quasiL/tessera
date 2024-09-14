@@ -62,7 +62,7 @@ export default function NavLinks() {
           })}
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 items-center">
           <GlobeIcon className="w-6 h-6" />
           <Select
             onValueChange={handleValueChange}
