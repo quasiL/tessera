@@ -1,3 +1,4 @@
+import CaseStudiesSection from "./_components/CaseStudiesSection";
 import ContactSection from "./_components/ContactSection";
 import HeroSection from "./_components/HeroSection";
 import PurposeSection from "./_components/PurposeSection";
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <ContactSection />
       <PurposeSection />
+      <CaseStudiesSection />
     </>
   );
 }

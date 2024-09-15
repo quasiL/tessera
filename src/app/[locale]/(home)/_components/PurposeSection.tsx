@@ -1,9 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { ArrowRightIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
+import ArrowButton from "../../_components/ArrowButton";
 
 export default function PurposeSection() {
   return (
@@ -63,15 +62,7 @@ export default function PurposeSection() {
               visible: { opacity: 1, scale: 1 },
             }}
           >
-            <Link
-              href="/purpose"
-              className="flex items-center gap-2 bg-tessera_blue hover:bg-blue-300 p-2 rounded w-2/6 group"
-            >
-              <p>Explore more</p>
-              <div className="transition-all duration-300 ease-in-out group-hover:px-6">
-                <ArrowRightIcon className="h-4 w-4" />
-              </div>
-            </Link>
+            <ArrowButton link="/purpose" title="Learn more" />
           </motion.div>
         </div>
         <Image
